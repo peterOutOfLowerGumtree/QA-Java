@@ -57,11 +57,11 @@ public class Garage {
 		String s = "";
 		for (Iterator<Vehicle> iter = vehicleList.iterator(); iter.hasNext();) {
 			Vehicle v = iter.next();
-			if (remov.equals("Car") && v instanceof Car) {
+			if ("Car".equals(remov) && v instanceof Car) {
 				iter.remove();
-			} else if (remov.equals("Bike") && v instanceof Bike) {
+			} else if ("Bike".equals(remov) && v instanceof Bike) {
 				iter.remove();
-			} else if (remov.equals("Train") && v instanceof Train) {
+			} else if ("Train".equals(remov) && v instanceof Train) {
 				iter.remove();
 			}
 			else s = "NO VEHICLE OF THAT TYPE LEFT";
