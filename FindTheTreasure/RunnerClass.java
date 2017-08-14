@@ -43,7 +43,7 @@ public class RunnerClass {
 			}
 		} while (!isStarted);
 
-		while (runner.isFound == false) {
+		while (!runner.isFound) {
 			runner.movePlayer(sc.next());
 		}
 		sc.close();
