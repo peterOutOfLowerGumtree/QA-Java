@@ -70,7 +70,7 @@ public class People {
 	}
 
 	// Print Array
-	static void printPeople() {
+	public static void printPeople() {
 		for (People p : peopleList) {
 			System.out.println(p.getName() + " " + p.getAge() + " " + p.getJobTitle());
 		}
