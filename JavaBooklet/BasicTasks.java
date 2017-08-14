@@ -85,7 +85,7 @@ public class BasicTasks {
 			return b;
 		else if (b == 0)
 			return a;
-		else if (bool == true)
+		else if (bool)
 			return a + b;
 		else
 			return a * b;
