@@ -17,7 +17,7 @@ public class TooHot {
 		int upperLimit;
 		final int lowerLimit = 60;
 
-		if (isSummer == true) {
+		if (isSummer) {
 			upperLimit = 100;
 			if (lowerLimit <= temperature && temperature <= upperLimit) {
 				System.out.println(true + " (temperature is within range)");
