@@ -1,9 +1,9 @@
 
 public class People {
 
-	String name;
-	String occupation;
-	int age;
+	private String name;
+	private String occupation;
+	private int age;
 
 	public People(String name, String occupation, int age) {
 		super();
