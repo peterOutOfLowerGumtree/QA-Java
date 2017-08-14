@@ -2,7 +2,7 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class Wizard {
-	ArrayList<Paint> paintList = new ArrayList<>();
+	public ArrayList<Paint> paintList = new ArrayList<>();
 
 	public void shitOutList() {
 		for (Paint p : paintList) {
@@ -36,7 +36,7 @@ public class Wizard {
 			price = pricePerMetreSq(p);
 			cost = price * roomSize;
 			DecimalFormat df = new DecimalFormat(".##");
-			System.out.println("It will cost £" + df.format(cost) + " to paint your room with " + p.getName());
+			System.out.println("It will cost Â£" + df.format(cost) + " to paint your room with " + p.getName());
 		}
 
 	}
