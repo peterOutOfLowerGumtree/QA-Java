@@ -1,5 +1,5 @@
 public class Bike extends Vehicle {
-	boolean hasGears;
+	private boolean hasGears;
 
 	public Bike(int id, int numberOfSeats, boolean hasGears, boolean isBroken) {
 		super(id, "Bike", numberOfSeats, 50, isBroken);
