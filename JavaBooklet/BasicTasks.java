@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class BasicTasks {
-	static int[] arrayOfInts = new int[10];
+	public static int[] arrayOfInts = new int[10];
 
 	public static void main(String[] args) {
 		arrayOfInts[0] = 0;
