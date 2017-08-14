@@ -1,7 +1,7 @@
 public class Player {
 	public String name;
-	int xPos;
-	int yPos;
+	private int xPos;
+	private int yPos;
 
 	public Player(String name, int xPos, int yPos) {
 		this.name = name;
