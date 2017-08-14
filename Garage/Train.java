@@ -1,5 +1,5 @@
 public class Train extends Vehicle {
-	boolean hasTracks;
+	private boolean hasTracks;
 
 	public Train(int id, int numberOfSeats, boolean hasTracks, boolean isBroken) {
 		super(id, "Train", numberOfSeats, 5000, isBroken);
