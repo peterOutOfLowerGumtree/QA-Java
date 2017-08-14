@@ -7,7 +7,7 @@ public class HelloWorldScanner {
 		System.out.println("Say Hello!");
 		input = scanner.next();
 
-		if (input.equals("Hello") || input.equals("hello"))
+		if ("Hello".equals(input) || "hello".equals(input))
 			System.out.println("Leave me alone");
 		else
 			System.out.println("Hello");
