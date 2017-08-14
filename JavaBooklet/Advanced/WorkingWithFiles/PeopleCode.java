@@ -2,8 +2,8 @@ import java.util.*;
 import java.io.*;
 
 public class PeopleCode {
-	ArrayList<People> peopleList = new ArrayList<>();
-	ArrayList<People> peopleListFromFile = new ArrayList<>();
+	public ArrayList<People> peopleList = new ArrayList<>();
+	public ArrayList<People> peopleListFromFile = new ArrayList<>();
 
 	// Add People to File
 	public void spitToFile(ArrayList<People> peopleList) throws IOException {
