@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Garage {
-	ArrayList<Vehicle> vehicleList = new ArrayList<Vehicle>();
+	public ArrayList<Vehicle> vehicleList = new ArrayList<Vehicle>();
 
 	public void shitOutList() {
 		for (Vehicle v : vehicleList) {
@@ -17,7 +17,7 @@ public class Garage {
 		else {
 			for (Vehicle v : vehicleList) {
 				if (v.getId() == calcId && v.isBroken == true)
-					System.out.println(v.getType() + " Repair Costs £" + v.getCostOfRepair());
+					System.out.println(v.getType() + " Repair Costs Â£" + v.getCostOfRepair());
 				else if (v.getId() == calcId && v.isBroken == false)
 					System.out.println(v.getType() + " is fixed");
 			}
@@ -57,11 +57,11 @@ public class Garage {
 		String s = "";
 		for (Iterator<Vehicle> iter = vehicleList.iterator(); iter.hasNext();) {
 			Vehicle v = iter.next();
-			if (v instanceof Car && remov.equals("Car")) {
+			if (remov.equals("Car") && v instanceof Car) {
 				iter.remove();
-			} else if (v instanceof Bike && remov.equals("Bike")) {
+			} else if (remov.equals("Bike") && v instanceof Bike) {
 				iter.remove();
-			} else if (v instanceof Train && remov.equals("Train")) {
+			} else if (remov.equals("Train") && v instanceof Train) {
 				iter.remove();
 			}
 			else s = "NO VEHICLE OF THAT TYPE LEFT";
