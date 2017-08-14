@@ -15,9 +15,9 @@ public class RunnerClass {
 		p.peopleList.add(p4);
 		p.peopleList.add(p5);
 
-		p.SpitToFile(p.peopleList);
-		p.shitOutFirstList();
+		p.spitToFile(p.peopleList);
+		p.spitFirstList();
 		p.readFromFile(p.peopleListFromFile);
-		p.shitOutSecondList();
+		p.spitSecondList();
 	}
 }
