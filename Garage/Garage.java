@@ -16,9 +16,9 @@ public class Garage {
 			System.out.println("NO VEHICLE IN SLOT");
 		else {
 			for (Vehicle v : vehicleList) {
-				if (v.getId() == calcId && v.isBroken == true)
+				if (v.getId() == calcId && v.isBroken)
 					System.out.println(v.getType() + " Repair Costs £" + v.getCostOfRepair());
-				else if (v.getId() == calcId && v.isBroken == false)
+				else if (v.getId() == calcId && !v.isBroken)
 					System.out.println(v.getType() + " is fixed");
 			}
 		}
