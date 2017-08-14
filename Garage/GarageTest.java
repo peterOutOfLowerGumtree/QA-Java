@@ -28,6 +28,8 @@ public class GarageTest {
 		c.setCostOfRepair(150);
 		c.setBroken(true);
 		c.setNumberOfDoors(2);
+		assertEquals(2, c.getId());
+		assertEquals(true, c.getBroken());
 	}
 	
 	@Test
