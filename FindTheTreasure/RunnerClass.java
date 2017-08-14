@@ -2,16 +2,17 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class RunnerClass {
-	Player p = new Player("Bob", 4, 4);
-	Treasure t = new Treasure("Gin", 0, 0);
-	Compass c = new Compass();
+	private Player p = new Player("Bob", 4, 4);
+	private Treasure t = new Treasure("Gin", 0, 0);
+	private Compass c = new Compass();
 
-	boolean isFound = false;
+	private boolean isFound = false;
 
 	public RunnerClass() { // put 1 where the player is positioned and 2 where
 							// treasure is located,not really using it but for
 							// future extensions
-		int x, y;
+		int x;
+		int y;
 		Random r = new Random();
 		do {
 			x = r.nextInt(10);
@@ -91,6 +92,9 @@ public class RunnerClass {
 					p.setxPos(p.getxPos() - 1);
 					break;
 				}
+			default: 
+				System.out.println("Invalid entry!");
+				break;
 			}
 
 		distance = c.getDistance(p.getxPos(), p.getyPos(), t.getxPos(), t.getyPos());
