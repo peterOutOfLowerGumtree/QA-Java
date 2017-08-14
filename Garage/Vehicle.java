@@ -1,10 +1,10 @@
 
 public abstract class Vehicle {
-	int id;
-	String type;
-	int numberOfSeats;
-	int costOfRepair;
-	boolean isBroken;
+	private int id;
+	private String type;
+	private int numberOfSeats;
+	private int costOfRepair;
+	private boolean isBroken;
 
 	public Vehicle(int id, String make, int numberOfSeats, int costOfRepair, boolean isBroken) {
 		super();
