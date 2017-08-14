@@ -1,11 +1,11 @@
 import java.util.*;
 
 public class People {
-	String name;
-	int age;
-	String jobTitle;
+	private String name;
+	private int age;
+	private String jobTitle;
 
-	static ArrayList<People> peopleList = new ArrayList<People>(100);
+	private static ArrayList<People> peopleList = new ArrayList<People>(100);
 
 	public static void main(String[] args) {
 		People p1 = new People("Adam", 30, "Builder");
