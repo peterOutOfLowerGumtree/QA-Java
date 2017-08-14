@@ -6,7 +6,7 @@ public class PeopleCode {
 	ArrayList<People> peopleListFromFile = new ArrayList<>();
 
 	// Add People to File
-	public void SpitToFile(ArrayList<People> peopleList) throws IOException {
+	public void spitToFile(ArrayList<People> peopleList) throws IOException {
 		PrintWriter penguinPublishing = new PrintWriter("List of People.txt", "UTF-8");
 		for (People p : peopleList) {
 			penguinPublishing.println(p.toString());
@@ -27,14 +27,14 @@ public class PeopleCode {
 	}
 
 	// Display peopleList in Console
-	public void shitOutFirstList() {
+	public void spitFirstList() {
 		for (People p : peopleList) {
 			System.out.println(p);
 		}
 	}
 
 	// Display peopleList in Console
-	public void shitOutSecondList() {
+	public void spitSecondList() {
 		for (People p : peopleListFromFile) {
 			System.out.println(p);
 		}
