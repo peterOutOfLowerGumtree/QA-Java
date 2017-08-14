@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class Blackjack {
 
 	public static void main(String[] args) throws Exception {
-		int int1, int2;
+		int int1;
+		int int2;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("PLAYER 1 NUMBER:");
 		int1 = sc.nextInt();
