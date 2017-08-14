@@ -11,7 +11,7 @@ public class UniqueSum {
 		sc.close();
 	}
 
-	static void uniqueSum(int a, int b, int c) {
+	private static void uniqueSum(int a, int b, int c) {
 		if (a == b && a == c && b == c)
 			System.out.println("SUM OF UNIQUE NUMERS = " + 0);
 		else if (a == b)
