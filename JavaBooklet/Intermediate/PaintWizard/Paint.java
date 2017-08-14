@@ -1,9 +1,9 @@
 
 public class Paint {
-	String name;
-	double volume;
-	double price;
-	double sprayArea;
+	private String name;
+	private double volume;
+	private double price;
+	private double sprayArea;
 
 	public Paint(String name, double volume, double price, double sprayArea) {
 		super();
