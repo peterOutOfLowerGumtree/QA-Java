@@ -1,5 +1,5 @@
 public class Treasure {
-	private String name;
+	public String name;
 	private int xPos;
 	private int yPos;
 
