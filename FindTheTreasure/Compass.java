@@ -1,5 +1,5 @@
 public class Compass {
-	int gridSize;
+	public int gridSize;
 	
 	public float getDistance(int playerX, int playerY, int treasureX, int treasureY) {
 		float newDistance;
