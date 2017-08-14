@@ -73,7 +73,7 @@ public class BasicTasks {
 
 	// Conditionals
 	public static void conditionalsEx(int a, int b, boolean bool) {
-		if (bool == true)
+		if (bool)
 			System.out.println(a + b);
 		else
 			System.out.println(a * b);
