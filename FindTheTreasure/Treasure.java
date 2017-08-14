@@ -1,7 +1,7 @@
 public class Treasure {
-	String name;
-	int xPos;
-	int yPos;
+	private String name;
+	private int xPos;
+	private int yPos;
 
 	public Treasure(String name, int xPos, int yPos) {
 		this.name = name;
