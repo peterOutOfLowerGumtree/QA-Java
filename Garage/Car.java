@@ -1,5 +1,5 @@
 public class Car extends Vehicle {
-	int numberOfDoors;
+	private int numberOfDoors;
 
 	public Car(int id, int numberOfSeats, int numberOfDoors, boolean isBroken) {
 		super(id, "Car", numberOfSeats, 100, isBroken);
